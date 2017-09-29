@@ -1,0 +1,32 @@
+{
+  "name": "vue-rx-pro",
+  "version": "1.0.0",
+  "description": "vue rx",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xswei/vue-rx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xswei/vue-rx/issues"
+  },
+  "homepage": "https://github.com/xswei/vue-rx#readme",
+  "dependencies": {
+    "rxjs": "^5.4.3",
+    "vue": "^2.4.4",
+    "vue-loader": "^13.0.5",
+    "vue-rx": "^4.0.1",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
